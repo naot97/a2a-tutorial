@@ -1,0 +1,51 @@
+Installed 147 packages in 4.51s
+[08/17/25 10:19:15] INFO     Loading agent cards from card repo:    server.py:67
+                             agent_cards                                        
+                    INFO     Reading file: car_rental_agent.json    server.py:74
+                    INFO     Reading file: hotel_booking_agent.json server.py:74
+                    INFO     Reading file: orchestrator_agent.json  server.py:74
+                    INFO     Reading file: air_ticketing_agent.json server.py:74
+                    INFO     Reading file: planner_agent.json       server.py:74
+                    INFO     Finished loading agent cards. Found 5  server.py:91
+                             cards.                                             
+                    INFO     Generating Embeddings for agent cards server.py:107
+[08/17/25 10:19:17] INFO     HTTP Request: POST                  _client.py:1030
+                             https://momo-product-qlct-dev-3.ope                
+                             nai.azure.com/openai/deployments/te                
+                             xt-embedding-3-large/embeddings?api                
+                             -version=2025-01-01-preview                        
+                             "HTTP/1.1 200 OK"                                  
+[08/17/25 10:19:18] INFO     HTTP Request: POST                  _client.py:1030
+                             https://momo-product-qlct-dev-3.ope                
+                             nai.azure.com/openai/deployments/te                
+                             xt-embedding-3-large/embeddings?api                
+                             -version=2025-01-01-preview                        
+                             "HTTP/1.1 200 OK"                                  
+[08/17/25 10:19:19] INFO     HTTP Request: POST                  _client.py:1030
+                             https://momo-product-qlct-dev-3.ope                
+                             nai.azure.com/openai/deployments/te                
+                             xt-embedding-3-large/embeddings?api                
+                             -version=2025-01-01-preview                        
+                             "HTTP/1.1 200 OK"                                  
+[08/17/25 10:19:21] INFO     HTTP Request: POST                  _client.py:1030
+                             https://momo-product-qlct-dev-3.ope                
+                             nai.azure.com/openai/deployments/te                
+                             xt-embedding-3-large/embeddings?api                
+                             -version=2025-01-01-preview                        
+                             "HTTP/1.1 200 OK"                                  
+[08/17/25 10:19:22] INFO     HTTP Request: POST                  _client.py:1030
+                             https://momo-product-qlct-dev-3.ope                
+                             nai.azure.com/openai/deployments/te                
+                             xt-embedding-3-large/embeddings?api                
+                             -version=2025-01-01-preview                        
+                             "HTTP/1.1 200 OK"                                  
+                    INFO     Agent cards MCP Server at             server.py:283
+                             localhost:10100 and transport sse                  
+INFO:     Started server process [31557]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://localhost:10100 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [31557]
